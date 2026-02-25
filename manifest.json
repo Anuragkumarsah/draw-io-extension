@@ -1,15 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Draw.io MCP Bridge v2",
+  "name": "Draw.io MCP Bridge",
   "version": "2.0.0",
   "description": "Connects draw.io to LLMs via MCP protocol with batch rendering and SVG feedback",
   "minimum_chrome_version": "116",
 
   "permissions": ["storage", "scripting"],
-  "host_permissions": [
-    "*://*.diagrams.net/*",
-    "*://app.diagrams.net/*"
-  ],
+  "host_permissions": ["*://*.diagrams.net/*", "*://app.diagrams.net/*"],
 
   "background": {
     "service_worker": "background.js"
