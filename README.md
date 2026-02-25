@@ -1,6 +1,6 @@
 # Draw.io MCP Bridge Extension
 
-A Chrome Manifest V3 extension that bridges AI/LLM agents to the draw.io canvas. It connects to the [drawio-mcp-server](../drawio-mcp-server/) via WebSocket and executes diagram manipulation commands directly on draw.io using the mxGraph API.
+A Chrome Manifest V3 extension that bridges AI/LLM agents to the draw.io canvas. It connects to the [drawio-mcp-server](https://github.com/Anuragkumarsah/drawio-mcp-server) via WebSocket and executes diagram manipulation commands directly on draw.io using the mxGraph API.
 
 ## How It Works
 
@@ -20,7 +20,7 @@ MCP Server ──(WebSocket)──► Service Worker ──(chrome.messaging)─
 ## Prerequisites
 
 - **Google Chrome** v116 or later (Manifest V3 service worker support)
-- The [drawio-mcp-server](../drawio-mcp-server/) must be running
+- The [drawio-mcp-server](https://github.com/Anuragkumarsah/drawio-mcp-server) must be running
 
 ## Setup & Installation
 
